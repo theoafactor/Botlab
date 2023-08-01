@@ -1,14 +1,10 @@
 answers = [
         {
-            "what is your name?": "My name is James" 
+           "my name is James": ["what is your name?",
+                                'say your name',
+                                'tell us your name',
+                                'who are you?'
+                                ]
          },
 
-        {
-            "state your gender": "male"
-        }, 
-        
-        {
-            
-         "qualification": "dont bother me"
-
-        } ]
+       ]
