@@ -59,5 +59,22 @@ answers = [
                 "state your age range.",
                 "age range"
             ]
+        },
+
+        {
+            "Cars" : [
+                "Favorite mode of transport?"
+                "what has four wheels and leaves tracks in the dirt?"
+                "most comfortable way to move around?"
+                "your personal preference in transportation?"
+            ]
+        },
+
+        {
+            "Superman" : [
+                "Your best superhero?"
+                "A superhero you admire?"
+                "Your best superhero as a kid?"
+            ]
         }
       ]
