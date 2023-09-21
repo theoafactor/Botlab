@@ -3,4 +3,9 @@ from engine.core import start
 ## start running the app
 bot = start()
 
-bot.ask("single or married")
+while True:
+    response = bot.ask(input("Ask your question: "))
+    
+    print(response["answer"])
+    if response["category"] == "exit":
+        break

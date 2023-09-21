@@ -1,63 +1,76 @@
 answers = [
         {
-           "my name is James": ["what is your name?",
+            "my name is James": {
+                
+                "secondary_answers": ["I am James", "They call me James"],
+                "questions": ["what is your name?",
                                 'say your name',
                                 'tell us your name',
                                 'who are you?'
-                                ]
-         },
+                                ],
+                "system": "exit",
+                "category": "conversation"
+            }
+        },
 
-         {
-            "Male": [ 
-                "state your gender.",
-                "declare your gender.",
-                "write your gender.",
-                "gender"
-                 ] 
-        }, 
-         
-        {
-            "Do not bother me!": [
-                "qualification",
-                "state your qualification.",
-                "education qualification",
-                "professional qualification"
-                ]
+          {
+            "Male": {
+                
+                "secondary_answers": [],
+                "questions": [ 
+                            "state your gender.",
+                            "declare your gender.",
+                            "write your gender.",
+                            "gender"
+                            ] ,
+                "system": "exit",
+                "category": "conversation"
+            }
         },
 
         {
-            "Single and not searching!": [
-                "marital status",
-                "love life status",
-                "single or married",
-                "state your marital status"
-            ]
+            "Do not bother me!": {
+                
+                "secondary_answers": [],
+                "questions": [
+                        "qualification",
+                        "state your qualification.",
+                        "education qualification",
+                        "professional qualification"
+                    ] ,
+                "system": "exit",
+                "category": "conversation"
+            }
         },
 
-        {
-            "Zero experience": [
-                "work experience",
-                "job history",
-                "former job descriptions.",
-                "current work experience."
-            ]
+
+          {
+            "Single and not searching!": {
+                
+                "secondary_answers": [],
+                "questions": [
+                    "marital status",
+                    "love life status",
+                    "single or married",
+                    "state your marital status"
+                ],
+                "system": "exit",
+                "category": "conversation"
+            }
         },
 
-        {
-            "Nigerian": [
-                "nationality",
-                "birth Country",
-                "country of Origin",
-                "citizenship"
-            ]
+          {
+            "Okay, goodbye": {
+                
+                "secondary_answers": ["Nice chatting with you", "Have a nice day!", "Goodbye!"],
+                "questions": [
+                    "end this convo",
+                    "let's stop chatting",
+                ],
+                "system": "exit",
+                "category": "exit"
+            }
         },
 
-        {
-            "Adult": [
-                "age category",
-                "child or adult",
-                "state your age range.",
-                "age range"
-            ]
-        }
-      ]
+
+]
